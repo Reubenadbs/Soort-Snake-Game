@@ -85,7 +85,7 @@ function stapLinks() {
         snake.style.left = (leftHuidig - wijziger) + 'px'
         actieCollision()
     }
-    if (leftHuidig < 0) {
+    if (leftHuidig < 100) {
         eindigGame()
     }
 }
@@ -107,7 +107,7 @@ function stapBoven() {
         snake.style.top = (topHuidig - wijziger) + 'px'
         actieCollision()
     }
-    if (topHuidig < 0) {
+    if (topHuidig < 100) {
         eindigGame()
     }
 
