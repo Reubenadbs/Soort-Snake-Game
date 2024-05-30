@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: grid;
+    background-image: url(/images/snakebg.jpg);
+    background-size: cover;
+    width: 1700px;
+    height: 1500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#apple img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+#timer {
+    position: relative;
+    left: -280px;
+    top: -40px;
+    font-size: 50px;
+}
+
+#punten {
+    position: relative;
+    left: -280px;
+    top: -20px;
+    font-size: 50px;
+}
+
+#start {
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    top: -400px;
+}
+
+#start img {
+    width: 500px;
+    height: 230px;
+}
+
+#gameover {
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    top: -400px;
+}
+
+#snake {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
