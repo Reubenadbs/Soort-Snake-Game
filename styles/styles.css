@@ -6,7 +6,7 @@ body {
 
 .game {
     display: grid;
-    background-image: url(/images/snakebg.jpg);
+    background-image: url(images/gameover.png);
     background-size: cover;
     width: 1700px;
     height: 1500px;
