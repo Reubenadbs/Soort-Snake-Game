@@ -97,7 +97,7 @@ function stapRechts() {
         snake.style.left = (leftHuidig + wijziger) + 'px'
         actieCollision()
     }
-    if (leftHuidig > 1500) {
+    if (leftHuidig > 1600) {
         eindigGame()
     }
 }
@@ -118,7 +118,7 @@ function stapOnder() {
         snake.style.top = (topHuidig + wijziger) + 'px'
         actieCollision()
     }
-    if (topHuidig > 1324) {
+    if (topHuidig > 1400) {
         eindigGame()
     }
 }
