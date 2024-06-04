@@ -4,7 +4,7 @@ body {
     align-items: center;
 }
 
-.game {
+#game {
     display: grid;
     background-image: url(../images/snakebg.jpg);
     background-size: cover;
@@ -14,8 +14,7 @@ body {
     position: relative;
 }
 
-#apple img {
-    display: block;
+#apple img{
     width: 100px;
     height: 100px;
 }

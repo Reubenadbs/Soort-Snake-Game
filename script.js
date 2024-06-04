@@ -1,4 +1,4 @@
-const veld = document.querySelector('.game')
+const veld = document.querySelector('#game')
 const snake = document.querySelector('#snake')
 const apple = document.querySelector('#apple')
 const start = document.querySelector('#start')
@@ -97,7 +97,7 @@ function stapRechts() {
         snake.style.left = (leftHuidig + wijziger) + 'px'
         actieCollision()
     }
-    if (leftHuidig > 1400) {
+    if (leftHuidig > 1500) {
         eindigGame()
     }
 }
