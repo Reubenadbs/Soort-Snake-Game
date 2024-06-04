@@ -1,4 +1,4 @@
-const veld = document.querySelector('#game')
+const veld = document.querySelector('.game')
 const snake = document.querySelector('#snake')
 const apple = document.querySelector('#apple')
 const start = document.querySelector('#start')
